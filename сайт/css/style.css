@@ -1,0 +1,142 @@
+body {
+	background: url(../images/texture1.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/*------------HEADER--------------------------------------------------*/
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:50px;
+right: 20px;
+display:none;
+text-indent:-9999px;
+background: url('../images/icon_top.png') no-repeat;
+}
+
+header{
+  margin-top: 20px;
+	margin-right: 100px;
+	margin-left: 100px;
+	background-color: #222930;
+	height: 70px;
+  border-radius: 7px;
+}
+
+a.buttons {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 25px;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  margin-left: 20px;
+  -webkit-transform: skewX(-20deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(-20deg); /* Для Firefox */
+    -o-transform: skewX(-20deg); /* Для Opera */
+    -ms-transform: skewX(-20deg); /* Для IE */
+    transform: skewX(-20deg); /* CSS3 */
+  width: 10%;
+  font: normal 17px arial;
+  color: #7FFF00;
+}
+a.buttons:not(:hover) {
+    transition: 0.6s;
+}
+a.buttons:not(.active) {
+  background-color: #222930;
+}
+a.buttons:not(.active):hover,
+a.buttons:not(.active):focus {
+  background-color: #222950;
+  transition: color 200ms linear, text-shadow 500ms linear;
+  color: #fff;
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+}
+
+/*----------------------------END HEADER-----------------------------------*/
+
+
+/*----------------------------FOOTER------------------------------------*/
+footer {
+  position: relative;
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: #222930;
+  height: 70px;
+  border-radius: 7px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-right: 100px;
+  height: 60px;
+}
+
+div.content{
+  margin: 100px;
+}
+div#copyrights {
+  margin-left: 3px;
+}
+
+#social {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+img.ref {
+  height: 30px;
+  width: 30px;
+}
+
+#something {
+  text-align: center;
+  float: center;
+}
+/*----------------------------END FOOTER------------------------------*/
+
+
+/*----------------------------CONTENT---------------------------------*/
+div.content {
+  display: inline-block;
+}
+
+a.button28 {
+  position: relative;
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 700;
+  color: rgb(209,209,217);
+  text-decoration: none;
+  text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+  padding: .5em 1em;
+  outline: none;
+  border-radius: 3px;
+  box-shadow:
+   0 1px rgba(255,255,255,.2) inset,
+   0 3px 5px rgba(0,1,6,.5),
+   0 0 1px 1px rgba(0,1,6,.2);
+  transition: .2s ease-in-out;
+  background: #222930;
+}
+a.button28:hover:not(:active) {
+  background-color: #222950;
+}
+a.button28:active {
+  top: 1px;
+  background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+  box-shadow:
+   0 0 1px rgba(0,0,0,.5) inset,
+   0 2px 3px rgba(0,0,0,.5) inset,
+   0 1px 1px rgba(255,255,255,.1);
+}
+
+#video{
+  float: right;
+}
+
+
+/*--------------------------END CONTENT-------------------------------*/
